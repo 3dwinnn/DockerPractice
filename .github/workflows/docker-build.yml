@@ -15,4 +15,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Docker Image
-        run: docker build -t my-docker-image -f DockerFile .
+        run: docker build -t my-docker-image:v1.0 -f DockerFile .
+
